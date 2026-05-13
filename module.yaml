@@ -1,0 +1,26 @@
+name: plane
+path: operations/plane
+category: operations
+owner: Solantra Nova
+environment_support:
+  - dev
+  - qa
+  - staging
+  - prod
+repo:
+  remote: git@github.com:solantra/plane.git
+  branch: preview
+runtime:
+  type: node
+  detected_files:
+    - package.json
+    - pnpm-lock.yaml
+    - docker-compose.yml
+deployment:
+  status: unknown
+  notes: []
+dependencies: []
+documentation:
+  atlas_required: true
+  runbook_required: true
+  adr_required_for_major_changes: true
