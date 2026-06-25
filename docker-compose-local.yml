@@ -148,4 +148,5 @@ volumes:
 
 networks:
   dev_env:
-    driver: bridge
+    name: solantra-net
+    external: true

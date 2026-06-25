@@ -175,3 +175,8 @@ volumes:
   redisdata:
   uploads:
   rabbitmq_data:
+
+networks:
+  default:
+    name: solantra-net
+    external: true

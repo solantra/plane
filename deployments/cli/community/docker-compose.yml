@@ -253,3 +253,8 @@ volumes:
   rabbitmq_data:
   proxy_config:
   proxy_data:
+
+networks:
+  default:
+    name: solantra-net
+    external: true
